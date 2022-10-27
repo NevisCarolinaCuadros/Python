@@ -1,0 +1,5 @@
+print("Ingresa Kilometros por hora para converitir: " )
+kilometrohora = float(input())
+operacion1 = (kilometrohora*5)
+operacion2 = (operacion1/18)
+print("Los metros por segundo son: " + str(operacion2))
