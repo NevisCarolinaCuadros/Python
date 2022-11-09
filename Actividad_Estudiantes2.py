@@ -1,4 +1,4 @@
-print('Ingrese 4 estudiantes: ')
+#print('Ingrese 4 estudiantes: ')
 estudiantes={1:'Juan Rojas', 2:'Oscar Lopez', 3: 'Laura Cardenas', 4: 'Maria Valencia'}
 
 print('Ingrese 3 notas para los 4 estudiantes:')
@@ -76,3 +76,10 @@ estudiantes[4]='Maria Valencia'
 for estudiante in estudiantes.items():
     print (notas,':',estudiante)
 print()
+
+print ('====================================')
+
+del estudiantes[1]
+estudiantes.pop(4)
+print(estudiantes)
+print ('====================================')
